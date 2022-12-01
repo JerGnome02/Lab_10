@@ -1,0 +1,58 @@
+package lab;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+
+@SuppressWarnings("unused")
+class TestLargest {
+
+	private Largest temp1;
+	@Test
+	public void test() {
+		testPositive();
+		testNegative();
+		testMixes();
+	}
+	public void testPositive(){
+	        int[] arr = new int[5];
+	        arr[0] = 8;
+	        arr[1] = 9;
+	        arr[2] = 7;
+	        arr[3] = 10;
+	        arr[4] = 2;
+	        Largest temp1 = new Largest();
+	        int maxValue = temp1.largest(arr);
+	        
+	/** add tests to check for this unit test **/    
+	        assertEquals(10, maxValue);
+	}
+	public void testNegative(){
+	        /** add tests to check for this unit test **/
+        int[] arr = new int[5];
+        arr[0] = -8;
+        arr[1] = -9;
+        arr[2] = -7;
+        arr[3] = -10;
+        arr[4] = -2;
+        Largest temp1 = new Largest();
+        int maxValue = temp1.largest(arr);
+        
+        assertEquals(-2, maxValue);
+	}
+	    
+	    public void testMixes(){
+	        /** add tests to check for this unit test **/
+	        int[] arr = new int[5];
+	        arr[0] = 8;
+	        arr[1] = -9;
+	        arr[2] = 7;
+	        arr[3] = -10;
+	        arr[4] = 2;
+	        Largest temp1 = new Largest();
+	        int maxValue = temp1.largest(arr);
+	        
+	        assertEquals(8, maxValue);
+	}
+}

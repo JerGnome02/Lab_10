@@ -1,0 +1,3 @@
+module Lab10 {
+	requires junit;
+}

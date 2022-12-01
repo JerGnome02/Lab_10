@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestLargest" project="L9" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="lab.TestLargest" time="0.021" displayname="TestLargest" uniqueid="[engine:junit-jupiter]/[class:lab.TestLargest]">
+    <testcase name="testMixes" classname="lab.TestLargest" time="0.017" displayname="testMixes()" uniqueid="[engine:junit-jupiter]/[class:lab.TestLargest]/[method:testMixes()]"/>
+    <testcase name="testPositive" classname="lab.TestLargest" time="0.001" displayname="testPositive()" uniqueid="[engine:junit-jupiter]/[class:lab.TestLargest]/[method:testPositive()]"/>
+    <testcase name="testNegative" classname="lab.TestLargest" time="0.001" displayname="testNegative()" uniqueid="[engine:junit-jupiter]/[class:lab.TestLargest]/[method:testNegative()]"/>
+  </testsuite>
+</testrun>

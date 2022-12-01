@@ -40,7 +40,7 @@ public class testSelectionSort {
 	        /** add tests to check for this unit test **/
 	    temp.basicSelectionSort(arr);
 	    for(int i = 0; i < Sortedarr.length; ++i) {
-	    	assertEquals(arr[i], Sortedarr[i]);
+	    	assertEquals(Sortedarr[i], arr[i]);
 	    }
 
 	    }
@@ -64,7 +64,7 @@ public class testSelectionSort {
 	        /** Test data contains negative values only **/
 		    temp.basicSelectionSort(arr);
 		    for(int i = 0; i < Sortedarr.length; ++i) {
-		    	assertEquals(arr[i], Sortedarr[i]);
+		    	assertEquals(Sortedarr[i], arr[i]);
 		    }
 	    }
 
@@ -86,7 +86,7 @@ public class testSelectionSort {
 	        /** Test data contains with both positive, negative and zeros **/
 		    temp.basicSelectionSort(arr);
 		    for(int i = 0; i < Sortedarr.length; ++i) {
-		    	assertEquals(arr[i], Sortedarr[i]);
+		    	assertEquals(Sortedarr[i], arr[i]);
 		    }
 	    }
 
@@ -119,7 +119,7 @@ public class testSelectionSort {
 	        /** Test data contains duplicates **/
 		    temp.basicSelectionSort(arr);
 		    for(int i = 0; i < Sortedarr.length; ++i) {
-		    	assertEquals(arr[i], Sortedarr[i]);
+		    	assertEquals(Sortedarr[i], arr[i]);
 		    }
 	    }
 
